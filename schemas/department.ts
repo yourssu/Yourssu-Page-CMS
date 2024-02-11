@@ -39,10 +39,9 @@ export default defineType({
       of: [{type: 'applyStepContent'}],
     }),
     defineField({
-      name: 'roadToPro',
+      name: 'roadToProVideo',
       title: '로드 투 프로',
-      type: 'array',
-      of: [{type: 'roadToProContent'}],
+      type: 'roadToProContent',
     }),
     defineField({
       name: 'inaWord',
