@@ -1,7 +1,7 @@
 import {defineField, defineType} from 'sanity'
 
 export default defineType({
-  name: 'defaultContent',
+  name: 'skillContent',
   type: 'object',
   fields: [
     defineField({
