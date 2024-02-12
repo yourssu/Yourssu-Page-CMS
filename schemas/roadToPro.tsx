@@ -13,14 +13,10 @@ export default defineType({
       type: 'image',
     }),
     defineField({
-      name: 'presenter_nickname',
-      title: '발표자 닉네임',
-      type: 'string',
-    }),
-    defineField({
-      name: 'presenter_name',
-      title: '발표자 이름',
-      type: 'string',
+      name: 'presenter',
+      title: '발표자',
+      type: 'array',
+      of: [{type: 'presenterContent'}],
     }),
     defineField({
       name: 'video_link',
@@ -30,9 +26,18 @@ export default defineType({
   ],
   preview: {
     select: {
-      title: 'presenter_nickname',
-      subtitle: 'presenter_name',
+      presenter: 'presenter',
       media: 'video_thumbnail',
+    },
+    prepare(selection) {
+      const {presenter, media} = selection
+      const firstPresneter = presenter[0]
+
+      return {
+        title: firstPresneter.presenter_nickname,
+        subtitle: firstPresneter.presenter_name,
+        media: media,
+      }
     },
   },
 })
