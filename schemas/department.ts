@@ -8,6 +8,11 @@ export default defineType({
   icon,
   fields: [
     defineField({
+      title: '번호',
+      name: 'id',
+      type: 'number',
+    }),
+    defineField({
       title: '부서 기본 정보',
       name: 'basicInformation',
       type: 'informationContent',
