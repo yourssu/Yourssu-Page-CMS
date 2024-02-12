@@ -9,7 +9,7 @@ export default defineType({
   fields: [
     defineField({
       title: '번호',
-      name: 'id',
+      name: 'num',
       type: 'number',
     }),
     defineField({
