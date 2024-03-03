@@ -3,7 +3,7 @@ import {FaFileVideo as icon} from 'react-icons/fa'
 
 export default defineType({
   name: 'roadToPro',
-  title: 'RoadToPro',
+  title: 'Road To Pro',
   type: 'document',
   icon,
   fields: [

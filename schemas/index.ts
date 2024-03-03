@@ -1,17 +1,19 @@
-import applyStepContent from './applyStepContent'
-import defaultContent from './defaultContent'
-import department from './department'
-import inaWordContent from './inaWordContent'
-import informationContent from './informationContent'
-import presenterContent from './presenterContent'
-import roadToPro from './roadToPro'
-import roadToProContent from './roadToProContent'
-import skillContent from './skillContent'
+import applyStepContent from './Types/applyStepContent'
+import defaultContent from './Types/defaultContent'
+import department from './Documents/department'
+import inaWordContent from './Types/inaWordContent'
+import informationContent from './Types/informationContent'
+import presenterContent from './Types/presenterContent'
+import roadToPro from './Documents/roadToPro'
+import roadToProContent from './Types/roadToProContent'
+import skillContent from './Types/skillContent'
+import recruitingSchedule from './Documents/recruitingSchedule'
 
 export const schemaTypes = [
   // Document types
   department,
   roadToPro,
+  recruitingSchedule,
 
   // Other types
   defaultContent,
