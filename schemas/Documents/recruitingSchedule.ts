@@ -8,6 +8,11 @@ export default defineType({
   icon,
   fields: [
     defineField({
+      title: '제목',
+      name: 'title',
+      type: 'string',
+    }),
+    defineField({
       name: 'applyProcedure',
       title: '전체 지원 절차',
       type: 'array',
@@ -16,8 +21,7 @@ export default defineType({
   ],
   preview: {
     select: {
-      title: 'basicInformation.name',
-      media: 'basicInformation.icon',
+      title: 'title',
     },
   },
 })
