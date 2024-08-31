@@ -49,6 +49,11 @@ export default defineType({
       type: 'roadToProContent',
     }),
     defineField({
+      name: 'growthAndDiff',
+      title: '성장 및 차별점',
+      type: 'growthAndDiffContent',
+    }),
+    defineField({
       name: 'inaWord',
       title: '한 마디',
       type: 'inaWordContent',
