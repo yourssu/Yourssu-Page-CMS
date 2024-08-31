@@ -8,6 +8,7 @@ import roadToPro from './Documents/roadToPro'
 import roadToProContent from './Types/roadToProContent'
 import skillContent from './Types/skillContent'
 import recruitingSchedule from './Documents/recruitingSchedule'
+import growthAndDiffContent from './Types/growthAndDiffContent'
 
 export const schemaTypes = [
   // Document types
@@ -23,4 +24,5 @@ export const schemaTypes = [
   roadToProContent,
   inaWordContent,
   presenterContent,
+  growthAndDiffContent,
 ]
