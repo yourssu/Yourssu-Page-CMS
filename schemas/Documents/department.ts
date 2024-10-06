@@ -1,5 +1,5 @@
-import {defineField, defineType} from 'sanity'
 import {MdPeople as icon} from 'react-icons/md'
+import {defineField, defineType} from 'sanity'
 
 export default defineType({
   name: 'department',
@@ -8,9 +8,10 @@ export default defineType({
   icon,
   fields: [
     defineField({
-      title: '번호',
-      name: 'num',
-      type: 'number',
+      name: 'applyProcedure',
+      title: '지원 절차',
+      description: '리쿠르팅을 진행하지 않는 경우, 모든 항목을 비활성화해주세요.',
+      type: 'recruitingScheduleContent',
     }),
     defineField({
       title: '부서 기본 정보',
@@ -36,12 +37,6 @@ export default defineType({
       name: 'skill',
       title: '기술 스택',
       type: 'skillContent',
-    }),
-    defineField({
-      name: 'applyProcedure',
-      title: '지원 절차',
-      type: 'array',
-      of: [{type: 'applyStepContent'}],
     }),
     defineField({
       name: 'roadToProVideo',
