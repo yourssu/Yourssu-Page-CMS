@@ -31,7 +31,7 @@ export default defineType({
       type: 'date',
     }),
     defineField({
-      name: 'applyProcedure',
+      name: 'procedure',
       title: '부서 내부 일정 - 전체 지원 절차',
       description:
         '"부서 내부 일정으로 리쿠르팅 진행"을 선택하지 않을 시, 해당 항목은 비공개됩니다.',
