@@ -14,16 +14,10 @@ export default defineType({
       type: 'string',
     }),
     defineField({
-      title: '리쿠르팅 전체 일정',
-      name: 'recruitingSchedule',
+      title: '리쿠르팅 서류 일정',
+      name: 'formSchedule',
       description:
         '"과제 X 문서" 기반으로 반영됩니다. "과제 O 문서"에서는 작성하지 않으셔도 됩니다.',
-      type: 'dateContent',
-    }),
-    defineField({
-      title: '서류 마감 일정',
-      name: 'formDeadline',
-      description: '해당 기간 동안에만 페이지 내 지원 버튼이 활성화 됩니다.',
       type: 'dateContent',
     }),
     defineField({
