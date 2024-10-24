@@ -53,6 +53,11 @@ export default defineType({
       title: '한 마디',
       type: 'inaWordContent',
     }),
+    defineField({
+      name: 'searchKeyword',
+      title: '검색 키워드',
+      type: 'string',
+    }),
   ],
   preview: {
     select: {
