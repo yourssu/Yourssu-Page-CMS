@@ -21,7 +21,7 @@ export default defineType({
       type: 'dateContent',
     }),
     defineField({
-      name: 'applyProcedure',
+      name: 'procedure',
       title: '전체 지원 절차',
       type: 'array',
       of: [{type: 'applyStepContent'}],

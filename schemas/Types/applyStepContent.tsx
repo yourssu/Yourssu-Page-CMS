@@ -6,13 +6,13 @@ export default defineType({
   type: 'object',
   fields: [
     defineField({
-      name: 'schedule',
-      title: '일정',
+      name: 'step',
+      title: '단계',
       type: 'string',
     }),
     defineField({
-      name: 'step',
-      title: '단계',
+      name: 'schedule',
+      title: '일정',
       type: 'string',
     }),
   ],

@@ -24,11 +24,11 @@ export default defineType({
       initialValue: false,
     }),
     defineField({
-      name: 'formDeadline',
-      title: '부서 내부 일정 - 서류 마감 날짜',
+      name: 'formSchedule',
+      title: '부서 내부 일정 - 서류 일정',
       description:
         '"부서 내부 일정으로 리쿠르팅 진행"을 선택하지 않을 시, 해당 항목은 비공개됩니다.',
-      type: 'date',
+      type: 'dateContent',
     }),
     defineField({
       name: 'procedure',
