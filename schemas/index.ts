@@ -1,3 +1,4 @@
+import buildTrigger from './Documents/buildTrigger'
 import department from './Documents/department'
 import recruitingSchedule from './Documents/recruitingSchedule'
 import roadToPro from './Documents/roadToPro'
@@ -17,6 +18,7 @@ export const schemaTypes = [
   department,
   roadToPro,
   recruitingSchedule,
+  buildTrigger,
 
   // Other types
   defaultContent,
