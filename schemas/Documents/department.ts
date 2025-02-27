@@ -39,6 +39,12 @@ export default defineType({
       type: 'skillContent',
     }),
     defineField({
+      name: 'procedure',
+      title: '합류 여정',
+      type: 'array',
+      of: [{type: 'applyStepContent'}],
+    }),
+    defineField({
       name: 'roadToProVideo',
       title: '로드 투 프로',
       type: 'roadToProContent',
