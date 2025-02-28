@@ -1,0 +1,38 @@
+import {defineArrayMember, defineField, defineType} from 'sanity'
+
+export default defineType({
+  name: 'articleContent',
+  title: '미디엄',
+  type: 'array',
+  of: [
+    defineArrayMember({
+      type: 'object',
+      fields: [
+        defineField({
+          name: 'url',
+          title: 'URL',
+          type: 'string',
+          description: '미디엄 글 링크를 입력해주세요.'
+        }),
+        defineField({
+          name: 'title',
+          type: 'string',
+          title: '제목',
+          description: '미디엄 글 제목을 입력해주세요.'
+        }),
+        defineField({
+          name: 'description',
+          type: 'string',
+          title: '설명',
+          description: '미디엄 글 설명을 입력해주세요.'
+        }),
+        defineField({
+          name: 'image',
+          type: 'url',
+          title: '이미지 URL',
+          description: '미리보기 이미지 URL을 입력해주세요.',
+        }),
+      ],
+    }),
+  ],
+})

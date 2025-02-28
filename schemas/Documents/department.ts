@@ -44,6 +44,11 @@ export default defineType({
       type: 'roadToProContent',
     }),
     defineField({
+      name: 'articleContent',
+      title: '미디엄',
+      type: 'articleContent',
+    }),
+    defineField({
       name: 'growthAndDiff',
       title: '성장 및 차별점',
       type: 'growthAndDiffContent',
