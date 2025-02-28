@@ -13,6 +13,7 @@ import recruitingScheduleContent from './Types/recruitingScheduleContent'
 import roadToProContent from './Types/roadToProContent'
 import skillContent from './Types/skillContent'
 import articleContent from './Types/articleContent'
+import article from './Types/article'
 
 export const schemaTypes = [
   // Document types
@@ -33,4 +34,5 @@ export const schemaTypes = [
   recruitingScheduleContent,
   dateContent,
   articleContent,
+  article,
 ]
