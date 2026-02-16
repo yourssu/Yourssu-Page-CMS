@@ -5,7 +5,6 @@ import roadToPro from './Documents/roadToPro'
 import applyStepContent from './Types/applyStepContent'
 import dateContent from './Types/dateContent'
 import defaultContent from './Types/defaultContent'
-import growthAndDiffContent from './Types/growthAndDiffContent'
 import inaWordContent from './Types/inaWordContent'
 import informationContent from './Types/informationContent'
 import presenterContent from './Types/presenterContent'
@@ -31,7 +30,6 @@ export const schemaTypes = [
   roadToProContent,
   inaWordContent,
   presenterContent,
-  growthAndDiffContent,
   recruitingScheduleContent,
   dateContent,
   articleContent,
