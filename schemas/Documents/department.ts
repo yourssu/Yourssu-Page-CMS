@@ -44,6 +44,16 @@ export default defineType({
       type: 'skillContent',
     }),
     defineField({
+      name: 'inaWord',
+      title: '한 마디',
+      type: 'inaWordContent',
+    }),
+    defineField({
+      name: 'FAQ',
+      title: 'FAQ',
+      type: 'FAQContent',
+    }),
+    defineField({
       name: 'roadToProVideo',
       title: '로드 투 프로',
       type: 'roadToProContent',
@@ -52,11 +62,6 @@ export default defineType({
       name: 'articleContent',
       title: '미디엄',
       type: 'articleContent',
-    }),
-    defineField({
-      name: 'inaWord',
-      title: '한 마디',
-      type: 'inaWordContent',
     }),
     defineField({
       name: 'searchKeyword',
