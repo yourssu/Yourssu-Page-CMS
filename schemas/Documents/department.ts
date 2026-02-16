@@ -24,6 +24,11 @@ export default defineType({
       type: 'defaultContent',
     }),
     defineField({
+      name: 'growthAndDiff',
+      title: '성장 및 차별점',
+      type: 'defaultContent',
+    }),
+    defineField({
       name: 'ideal',
       title: '인재상',
       type: 'defaultContent',
@@ -47,11 +52,6 @@ export default defineType({
       name: 'articleContent',
       title: '미디엄',
       type: 'articleContent',
-    }),
-    defineField({
-      name: 'growthAndDiff',
-      title: '성장 및 차별점',
-      type: 'growthAndDiffContent',
     }),
     defineField({
       name: 'inaWord',
