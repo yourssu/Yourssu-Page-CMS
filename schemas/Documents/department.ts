@@ -24,6 +24,11 @@ export default defineType({
       type: 'defaultContent',
     }),
     defineField({
+      name: 'growthAndDiff',
+      title: '성장 및 차별점',
+      type: 'defaultContent',
+    }),
+    defineField({
       name: 'ideal',
       title: '인재상',
       type: 'defaultContent',
@@ -39,6 +44,16 @@ export default defineType({
       type: 'skillContent',
     }),
     defineField({
+      name: 'inaWord',
+      title: '한 마디',
+      type: 'inaWordContent',
+    }),
+    defineField({
+      name: 'FAQ',
+      title: 'FAQ',
+      type: 'FAQContent',
+    }),
+    defineField({
       name: 'roadToProVideo',
       title: '로드 투 프로',
       type: 'roadToProContent',
@@ -47,16 +62,6 @@ export default defineType({
       name: 'articleContent',
       title: '미디엄',
       type: 'articleContent',
-    }),
-    defineField({
-      name: 'growthAndDiff',
-      title: '성장 및 차별점',
-      type: 'growthAndDiffContent',
-    }),
-    defineField({
-      name: 'inaWord',
-      title: '한 마디',
-      type: 'inaWordContent',
     }),
     defineField({
       name: 'searchKeyword',

@@ -15,11 +15,5 @@ export default defineType({
       type: 'text',
       description: '소개 페이지에서 줄바꿈도 반영됩니다. 이를 고려해서 작성해주세요. (2줄 이내)',
     }),
-    defineField({
-      name: 'content',
-      title: '내용',
-      type: 'text',
-      description: '소개 페이지에서 줄바꿈도 반영됩니다. 이를 고려해서 작성해주세요.',
-    }),
   ],
 })
