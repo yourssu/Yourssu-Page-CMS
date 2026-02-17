@@ -17,6 +17,12 @@ export default defineType({
       description: '미디엄 글 제목을 입력해주세요.'
     }),
     defineField({
+      name: 'author',
+      type: 'string',
+      title: '저자',
+      description: '미디엄 글 저자를 입력해주세요.'
+    }),
+    defineField({
       name: 'description',
       type: 'string',
       title: '설명',
@@ -29,4 +35,10 @@ export default defineType({
       description: '미리보기 이미지 URL을 입력해주세요.',
     }),
   ],
+  preview: {
+  select: {
+    title: 'title',
+    subtitle: 'author',
+  },
+},
 })
