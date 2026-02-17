@@ -59,7 +59,7 @@ export default defineType({
       type: 'roadToProContent',
     }),
     defineField({
-      name: 'articleContent',
+      name: 'medium',
       title: '미디엄',
       type: 'articleContent',
     }),
